@@ -1,0 +1,123 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Feldenkrais San Diego</title>
+<link rel="stylesheet" href="mainstyle.css"/>
+<link href="img/favicon.ico" type="image/ico" rel="icon">
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery.jcarousel.js"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+				scroll: 1,
+				visible: 1,
+				animation:600,
+				wrap:"both"
+    });
+	 $(".image").fadeIn(1900);
+});
+
+
+$(function() {  
+$('a').click(function() {  
+$('.image').fadeOut(1500);  
+setTimeout('window.location = url', 1500);
+});  
+}); 
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6027587-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+
+<body>
+
+<div class="wrapper">
+<a href="#" onClick="url =('index.html');" class="logo"><h1>Feldenkrais San Diego</h1></a>
+<a href="#" onClick="url =('index.html');" class="logo1"></a>
+
+
+<div class="clickleft"></div>
+<div class="clickright"></div>
+
+<div class="bartop"></div>
+<div class="barright">
+
+
+<div id="right">
+    <div id="home_cont">
+    <div id="home"> <img src="home.png" alt="Home" />
+          </div>
+</div>
+    <div id="schedule_cont">
+    <div id="schedule"> <img src="schedule.png" alt="Schedule" /> 
+	  </div>
+	</div>
+    <div id="method_cont">
+        <div id="method"> <img src="method.png" alt="Feldenkrais Method" />
+           </div>
+    </div>
+    <div id="group_cont">
+   <div id="groupclasses">
+    <img src="groupclasses.png" alt="Group Classes" />
+    </div>
+    </div>
+    <div id="private_cont">
+    <div id="privatesessions"> <img src="privatesessions.png" alt="Private Sessions" />
+    </div>
+    </div>
+    <div id="about_cont">
+   <div id="about"> <img src="about.png" alt="About Donna.png" />
+    </div>
+    </div>
+    <div id="resources_cont">
+   <div id="resources"> <img src="resources.png" alt="Resources" />
+    </div>
+    </div>
+    
+       </div>
+  </div>
+
+</div>
+<div class="barleft"></div>
+
+
+
+<div class="content">
+
+
+
+<ul class="imagelist" id="mycarousel">
+	<li><img src="images/img1.jpg" class="image" /></li>
+    <li><img src="images/img2.jpg" class="image" /></li>
+    <li><img src="img/04/04_boogaloo_3.jpg" class="image" /></li>
+    <li><img src="img/04/04_boogaloo_4.jpg" class="image" /></li>
+    <li><img src="img/04/04_boogaloo_end.jpg" class="image" /></li>
+</ul>
+
+
+
+
+<div class="navi"></div>
+
+</div>
+</body>
+</html>
